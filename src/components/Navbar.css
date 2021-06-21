@@ -1,6 +1,6 @@
 .navbar {
     background-color: #00192E;
-    height: 75px;
+    height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,12 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    /* align-self: flex-start; */
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
+    size: 2rem;
+    align-items: center;
   }
   
   .fa-firstdraft {
@@ -35,7 +35,7 @@
   .nav-item {
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 75px;
   }
   
   .nav-links {

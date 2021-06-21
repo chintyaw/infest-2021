@@ -13,6 +13,7 @@
     cursor: pointer;
     size: 2rem;
     align-items: center;
+    margin-left: 3rem;
   }
   
   .fa-firstdraft {
@@ -102,10 +103,7 @@
     }
   
     .navbar-logo {
-      /* position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%); */
+      margin-left: 0px;
     }
   
     .menu-icon {

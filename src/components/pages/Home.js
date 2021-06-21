@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../App.css'
+import '../components/Footers'
 
 export default function Home(){
     return (

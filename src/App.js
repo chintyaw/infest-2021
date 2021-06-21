@@ -6,9 +6,11 @@ import Webinar from './components/pages/Webinar'
 import Workshop from './components/pages/Workshop'
 import Competition from './components/pages/Competition'
 import Acara from './components/pages/Acara'
+import Footer from './components/Footer'
 
 function App() {
   return (
+    <div>
     <Router>
       <Navbar />
       <Switch>
@@ -18,6 +20,8 @@ function App() {
         <Route path='/acara' exact component={Acara} />
       </Switch>
     </Router>
+    <Footer />
+    </div>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -17,9 +18,13 @@ const Footer = () => {
                     </div>
                     <div className="SocialMedia">
                         <div className="SocialIcon">
-                            <i class="fab fa-instagram fa-2x"></i> 
+                            <a href="https://instagram.com/infestbdg">
+                                <i class="fab fa-instagram fa-2x"></i> 
+                            </a>
                         </div>
-                        <i class="fab fa-linkedin fa-2x"></i>
+                        <a href="https://www.linkedin.com/company/investment-festival-itb/about/">
+                            <i class="fab fa-linkedin fa-2x"></i> 
+                        </a>
                     </div>
                     <div className="Logos">
                         <img src="/infest-logo.svg" width="105px" height="50px" alt=""/>
@@ -128,7 +133,7 @@ const Footer = () => {
             </div>
             
             <div className="FooterCR">
-                <h5 style={{textAlign: "center"}}>&copy; INFEST 2021. All rights reserved.</h5>
+                <h5 style={{textAlign: "center", fontSize: "12px"}}>&copy; INFEST 2021. All rights reserved.</h5>
             </div>
         </div>
     )

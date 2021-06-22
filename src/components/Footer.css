@@ -95,7 +95,7 @@ h5 {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 244px;
+    /* margin: 0px 244px; */
     width: 621px;
 }
 
@@ -111,20 +111,23 @@ h5 {
 .Whatsapp {
     display: flex;
     color: #F1F4F8;
+    margin-bottom: 10px;
 }
 
 .Line{
     display:flex;
     color: #F1F4F8;
+    margin-bottom: 16px;
 }
 
 .FooterContact {
     display: flex;
+    text-align: right;
+    justify-content: flex-end;
 }
 
 .FooterEvent {
     max-width: 207px;
-    overflow-text: wrap;
 }
 
 .FooterAtas {
@@ -132,4 +135,13 @@ h5 {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
+    justify-content: space-between;
+}
+
+.ContactIcon {
+    margin-left: 8px;
+}
+
+.ContactName {
+    margin-bottom: 16px;
 }

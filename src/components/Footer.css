@@ -34,6 +34,28 @@ h3 {
     margin: 19px 0px;
 }
 
+h4 {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    width: 207px;
+    height: 23px;
+    color: #F1F4F8;
+}
+
+h5 {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    height: 24px;
+    color: #F1F4F8;
+}
+
 .SocialMedia {
     display: flex;
     flex-direction: row;
@@ -49,10 +71,6 @@ h3 {
     left: 0px;
     bottom: 0px;
     background: #00192E;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
 }
 
 .SocialMedia {
@@ -67,17 +85,51 @@ h3 {
     flex: none;
     order: 0;
     flex-grow: 0;
+    width: 320px;
 }
 
 .FooterRight {
     padding-top: 40px;
+    right: 0;
+    padding-right: 90px;
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0px 244px;
+    width: 621px;
+}
+
+.SocialIcon {
+    margin-right: 16px;
 }
 
 .Logos {
     padding-top: 99px;
-    background-color:#F1F4F8;
+    margin-right: 20px;
+}
+
+.Whatsapp {
+    display: flex;
+    color: #F1F4F8;
+}
+
+.Line{
+    display:flex;
+    color: #F1F4F8;
+}
+
+.FooterContact {
+    display: flex;
+}
+
+.FooterEvent {
+    max-width: 207px;
+    overflow-text: wrap;
+}
+
+.FooterAtas {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
 }

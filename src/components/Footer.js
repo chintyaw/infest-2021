@@ -33,34 +33,34 @@ const Footer = () => {
                 </div>
                 <div className="FooterRight">
                     <div className="FooterTitleRight">
-                        <h1 style={{justifyContent: "flex-end", width: "100%", marginBottom: '28px'}}>Informasi Kontak</h1>
+                        <h1 style={{width: "100%", marginBottom: '28px'}}>Informasi Kontak</h1>
                     </div>
                     <div className="FooterContact">
                         <div className="FooterEvent">
                             <h4>Webinar</h4>
-                            <h5 className="ContactName">Nama</h5>
+                            <h5 className="ContactName">Michael Benedict</h5>
                             <div className="Whatsapp">
-                                <h5>WA</h5>
+                                <h5>0895340721905</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-whatsapp fa-lg" />
                                 </div>
                             </div>
                             <div className="Line">
-                                <h5>Line</h5>
+                                <h5>m.benedict</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-line fa-lg" />
                                 </div>
                             </div>
 
-                            <h5 className="ContactName">Nama</h5>
+                            <h5 className="ContactName">Felicia</h5>
                             <div className="Whatsapp">
-                                <h5>WA</h5>
+                                <h5>082177449097</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-whatsapp fa-lg" />
                                 </div>
                             </div>
                             <div className="Line">
-                                <h5>Line</h5>
+                                <h5>felprisss_</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-line fa-lg" />
                                 </div>
@@ -98,7 +98,7 @@ const Footer = () => {
                                 
                         </div>
                         <div className="FooterEvent">
-                        <h4 style={{textOverflow: 'wrap', maxWidth: '207px'}}>Trading Competition</h4>
+                        <h4 style={{textOverflow: 'wrap'}}>Competition</h4>
                             <h5 className="ContactName">Nama</h5>
                             <div className="Whatsapp">
                                 <h5>WA</h5>

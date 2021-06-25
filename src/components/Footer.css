@@ -135,6 +135,7 @@ h5 {
     align-items: flex-start;
     padding: 0px;
     justify-content: space-between;
+    background-color: #00192E;
 }
 
 .ContactIcon {
@@ -147,7 +148,6 @@ h5 {
 
 .FooterCR {
     bottom: 0;
-    margin-top: 10px;
     background-color: #00192E;
 }
 

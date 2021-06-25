@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+}
+
 h1 {
     font-family: Poppins;
     font-style: normal;
@@ -174,7 +178,7 @@ a {
         padding-top: 20px;
     }
     h1 {
-        padding-top: 50px;
+        padding-top: 30px;
         font-size: 24px;
     }
     h3 {
@@ -266,7 +270,7 @@ a {
     }
 
     h1 {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     h4 {

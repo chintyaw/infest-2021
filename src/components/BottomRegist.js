@@ -6,11 +6,11 @@ const BottomRegist = () => {
     return (
         <div>
             <h1>Tertantang untuk Berkompetisi?</h1>
-            <Link to="/" style={{ textDecoration: 'none' }}>
-                <div style={{ width: "100%", display: "flex", justifyContent: "center", marginBottom: "120px"}}>
+            <div style={{ width: "100%", display: "flex", justifyContent: "center", marginBottom: "120px" }}>
+                <Link to="/" style={{ textDecoration: 'none' }}>
                     <button type="button" className="Button">Registrasi Sekarang</button>
-                </div>
-            </Link>
+                </Link>
+            </div>
         </div>
     )
 }

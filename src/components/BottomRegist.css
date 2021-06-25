@@ -4,8 +4,8 @@ h1 {
     margin-bottom: 40px;
 }
 .Button {
-    width: 40%;
-    height: 95; 
+    width: 100%;
+    height: 95px; 
     margin: auto;
     color: #F1F4F8;
     font-family: Poppins;
@@ -27,5 +27,9 @@ h1 {
 @media screen and (max-width: 960px) {
     h1 {
         font-size: 24px;
+    }
+
+    .Button {
+        text-overflow: wrap;
     }
 }

@@ -5,6 +5,10 @@
   font-family: 'Lexend', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .home, .webinar, .workshop, .competition, .acara {
   display: flex;
   height: 90vh;

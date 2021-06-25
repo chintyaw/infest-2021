@@ -1,0 +1,12 @@
+.Tentang {
+    font-family: Lexend;
+    color: #F1F4F8;
+    max-width: 70%;
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+}
+
+.TentangContainer {
+    margin-bottom: 120px;
+}

@@ -1,0 +1,58 @@
+.TemaContainer {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.GambarTema {
+    width: 40%;
+    order: 0;
+    align-items: center;
+}
+
+.TulisanTema {
+    order: 1;
+    width: 40%;
+    color: #F1F4F8;
+}
+
+.JudulTema {
+    font-size: 36px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.TulisanTema {
+    font-family: 'Lexend';
+    font-size: 20px;
+    text-align: left;
+}
+
+@media screen and (max-width: 960px) {
+    .TemaContainer {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .TulisanTema {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        max-width: 70%;
+    }
+
+    .GambarTema {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .JudulTema {
+        text-align: center;
+        font-size: 24px;
+    }
+}

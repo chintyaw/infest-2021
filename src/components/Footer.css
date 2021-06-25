@@ -171,11 +171,16 @@ a {
         bottom: 0;
         margin-top:0;
         background-color: #00192E;
+        padding-top: 20px;
     }
-
+    h1 {
+        padding-top: 50px;
+        font-size: 24px;
+    }
     h3 {
         width: 100%;
         padding: 10px;
+        font-size: 10px;
     }
 
     .Logos {
@@ -202,6 +207,7 @@ a {
     h4 {
         width: auto;
         text-align: center;
+        font-size: 12px;
     }
 
     .FooterContact {
@@ -227,10 +233,15 @@ a {
 
     h5 {
         width: 100%;
+        font-size: 10px;
     }
 
     .FooterTitleRight {
         text-align: center;
+    }
+
+    h2 {
+        font-size: 14px;
     }
     
 }
@@ -252,6 +263,14 @@ a {
 
     h5 {
         width: auto;
+    }
+
+    h1 {
+        padding-top: 50px;
+    }
+
+    h4 {
+        color: #16cecc;
     }
 
 }

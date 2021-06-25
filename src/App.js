@@ -11,7 +11,7 @@ import Home from './components/pages/Home'
 
 function App() {
   return (
-    <div style={{backgroundImage: "url(/background.svg)", backgroundSize: "100%"}}>
+    <div style={{backgroundImage: "url(/background2.svg)", backgroundSize: "100%"}}>
     <Router>
       <Navbar />
       <Switch>

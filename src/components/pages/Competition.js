@@ -7,7 +7,6 @@ import Hadiah from '../Hadiah'
 export default function Competition(){
     return (
         <>
-            <h1 className='competition'> Trading Competition </h1>
             <Hadiah />
             <TimelineCompe />
             <BottomRegist />

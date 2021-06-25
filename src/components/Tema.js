@@ -3,7 +3,7 @@ import './Tema.css'
 
 const Tema = () => {
     return (
-        <div className="TemaContainer">
+        <div className="TemaContainer" id="Tema">
             <div className="GambarTema">
                 <img src="/infest-logo.svg" width="80%" margin="auto" alt="/"/>
             </div>

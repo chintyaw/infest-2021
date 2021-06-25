@@ -26,8 +26,8 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className="Logos">
-                        <img src="/infest-logo.webp" width="105px" height="50px" alt="" />
-                        <img src="/ksep-logo.webp" width="50px" height="50px" alt="" />
+                        <img src="/infest-logo.webp" width="105px" height="50px" style={{marginRight:"20px"}} alt="" />
+                        <img src="/ksep-logo.webp" width="50px" height="50px" style={{marginBottom:"-7px"}} alt="" />
                     </div>
                 </div>
                 <div className="FooterRight">

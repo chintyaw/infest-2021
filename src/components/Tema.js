@@ -5,7 +5,7 @@ const Tema = () => {
     return (
         <div className="TemaContainer">
             <div className="GambarTema">
-                <img src="/infest-logo.svg" width="80%" margin="auto" alt="/"/>
+                <img src="/infest-logo.webp" width="80%" margin="auto" alt="/"/>
             </div>
             <div className="TulisanTema">
                 <div className="JudulTema">

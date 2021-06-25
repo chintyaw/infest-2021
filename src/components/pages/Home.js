@@ -6,7 +6,7 @@ import Tema from '../Tema'
 
 export default function Home(){
     return (
-        <div style={{backgroundImage: "url(/background.svg)", backgroundSize: "100%"}}>
+        <div>
             <JudulInfest />
             <Tentang />
             <Tema />

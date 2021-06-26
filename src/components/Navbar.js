@@ -105,9 +105,9 @@ function Navbar() {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link to="/acara" className="nav-links" onClick={closeMobileMenu}>
+              <div className="nav-links" onClick={closeMobileMenu}>
                 Acara <i className="fas fa-caret-down" />
-              </Link>
+              </div>
               {dropdown && <Dropdown />}
             </li>
           )}

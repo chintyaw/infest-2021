@@ -1,0 +1,26 @@
+.Paragraph {
+    font-family: Lexend;
+    color: #F1F4F8;
+    max-width: 70%;
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+}
+
+.Daftar{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    align-items: center;
+    color: #F1F4F8;
+    text-align: center;
+}
+.IntroContainer{
+    margin-bottom: 0px;
+}
+
+.AboutContainer{
+    margin-bottom: 200px;
+}

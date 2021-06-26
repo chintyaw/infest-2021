@@ -1,0 +1,20 @@
+.Button1 {
+    width: 20%;
+    height: 86; 
+    margin: auto;
+    color: #F1F4F8;
+    font-family: Poppins;
+    font-size: 24px;
+    background-color: #00192E;
+    border: none;
+    border-radius: 15.96px;
+    padding: 15px;
+}
+
+.Button1:hover, .Button1:visited {
+    cursor: pointer;
+    color: #00192E;
+    background-color: #16CECC;
+    text-decoration:none;
+    transition: all 0.3s ease-out;
+}

@@ -4,7 +4,7 @@ import '../../App.css'
 export default function Webinar(){
     return (
         <>
-            <h1 className='webinar'> Webinar </h1>
+            <h1 className='webinar'> Coming Soon </h1>
         </>
     )
 }

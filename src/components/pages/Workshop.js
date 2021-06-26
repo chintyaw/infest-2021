@@ -4,7 +4,7 @@ import '../../App.css'
 export default function Workshop(){
     return (
         <>
-            <h1 className='workshop'> Workshop </h1>
+            <h1 className='workshop'> Coming Soon </h1>
         </>
     )
 }

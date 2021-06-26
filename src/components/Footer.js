@@ -75,64 +75,80 @@ const Footer = () => {
                         </div>
                         <div className="FooterEvent">
                             <h4>Workshop</h4>
-                            <h5 className="ContactName">Nama</h5>
+                            <h5 className="ContactName">WK</h5>
+                            <a href="https://api.whatsapp.com/send?phone=6281228280905" target="_blank" rel="noopener noreferrer">
                             <div className="Whatsapp">
-                                <h5>WA</h5>
+                                <h5>081228280905</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-whatsapp fa-lg" />
                                 </div>
                             </div>
+                            </a>
+                            <a href="https://line.me/ti/p/~rizkyw.k" target="_blank" rel="noopener noreferrer">
                             <div className="Line">
-                                <h5>Line</h5>
+                                <h5>rizkyw.k</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-line fa-lg" />
                                 </div>
                             </div>
+                            </a>
 
-                            <h5 className="ContactName">Nama</h5>
+                            <h5 className="ContactName">Afifah</h5>
+                            <a href="https://api.whatsapp.com/send?phone=628217759754" target="_blank" rel="noopener noreferrer">
                             <div className="Whatsapp">
-                                <h5>WA</h5>
+                                <h5>08217759754</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-whatsapp fa-lg" />
                                 </div>
                             </div>
+                            </a>
+                            <a href="https://line.me/ti/p/~afifahhdinii" target="_blank" rel="noopener noreferrer">
                             <div className="Line">
-                                <h5>Line</h5>
+                                <h5>afifahhdinii</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-line fa-lg" />
                                 </div>
                             </div>
+                            </a>
 
                         </div>
                         <div className="FooterEvent">
                             <h4 style={{ textOverflow: 'wrap' }}>Competition</h4>
-                            <h5 className="ContactName">Nama</h5>
+                            <h5 className="ContactName">Aure</h5>
+                            <a href="https://api.whatsapp.com/send?phone=6282228563340" target="_blank" rel="noopener noreferrer">
                             <div className="Whatsapp">
-                                <h5>WA</h5>
+                                <h5>082228563340</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-whatsapp fa-lg" />
                                 </div>
                             </div>
+                            </a>
+                            <a href="https://line.me/ti/p/~aure0610" target="_blank" rel="noopener noreferrer">
                             <div className="Line">
-                                <h5>Line</h5>
+                                <h5>aure0610</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-line fa-lg" />
                                 </div>
                             </div>
+                            </a>
 
-                            <h5 className="ContactName">Nama</h5>
+                            <h5 className="ContactName">Vina</h5>
+                            <a href="https://api.whatsapp.com/send?phone=628813723147" target="_blank" rel="noopener noreferrer">
                             <div className="Whatsapp">
-                                <h5>WA</h5>
+                                <h5>08813723147</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-whatsapp fa-lg" />
                                 </div>
                             </div>
+                            </a>
+                            <a href="https://line.me/ti/p/~elvinapermata" target="_blank" rel="noopener noreferrer">
                             <div className="Line">
-                                <h5>Line</h5>
+                                <h5>elvinapermata</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-line fa-lg" />
                                 </div>
                             </div>
+                            </a>
 
                         </div>
                     </div>

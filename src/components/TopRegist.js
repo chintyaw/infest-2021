@@ -4,12 +4,12 @@ import'./TopRegist.css';
 
 const TopRegist = () => {
     return (
-        <div style={{ width: "100%", marginBottom: "350px",textAlign:"center" }}>
+        <div className="TopButton" style={{ marginBottom: "180px", textAlign:"center", margin: "auto" }}>
             <Link to="/registrasicompetition" style={{ textDecoration: 'none' }}>
-                <button type="button" className="Button1" style={{fontFamily: 'Poppins', fontSize: '36px', margin:"20px"}}>Registrasi</button>
+                <button type="button" className="Button1" style={{fontFamily: 'Poppins', margin:"10px"}}>Registrasi</button>
             </Link>
-            <Link to="/Competition" style={{ textDecoration: 'none' }}>
-                <button type="button" className="Button1" style={{fontFamily: 'Poppins', fontSize: '36px', margin:"20px"}}>Link Guidebook</button>
+            <Link to="/competition" style={{ textDecoration: 'none' }}>
+                <button type="button" className="Button1" style={{fontFamily: 'Poppins', margin:"10px"}}>Link Guidebook</button>
             </Link>
         </div>
     )

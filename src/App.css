@@ -16,3 +16,15 @@ html {
   justify-content: center;
   font-size: 3rem;
 }
+
+.formFooter, .formFooter-wrapper {
+  visibility: hidden;
+}
+
+.formFooter {
+  visibility: hidden !important;
+}
+
+.error-navigation-inner, .error-navigation-inner {
+  visibility: hidden !important;
+}

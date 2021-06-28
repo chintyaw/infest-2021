@@ -20,6 +20,10 @@ function Navbar() {
     window.addEventListener("resize", handleResize);
   });
 
+  useEffect(() => {
+    handleResize();
+  }, []);
+
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -53,9 +57,9 @@ function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/#Tentang" className="nav-links" onClick={closeMobileMenu}>
+            <a href="/#Tentang" className="nav-links" onClick={closeMobileMenu}>
               Tentang
-            </Link>
+            </a>
           </li>
           {/*
            <li

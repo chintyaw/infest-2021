@@ -18,13 +18,13 @@ html {
 }
 
 .formFooter, .formFooter-wrapper {
-  visibility: hidden;
+  opacity: 0;
 }
 
 .formFooter {
-  visibility: hidden !important;
+  opacity: 0 !important;
 }
 
 .error-navigation-inner, .error-navigation-inner {
-  visibility: hidden !important;
+  opacity: 0 !important;
 }

@@ -5,6 +5,7 @@
 }
 
 h1.judul {
+  padding-top: 5vw;
   padding-left: 1vw;
   width: 90vw;
   margin: auto;
@@ -20,7 +21,7 @@ h1.judul {
   width: 80%;
   margin: auto;
   margin-top: 4vw;
-  margin-bottom: 20vw;
+  margin-bottom: 10vw;
 }
 
 .acara-card {

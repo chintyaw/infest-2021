@@ -1,8 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import JotformEmbed from 'react-jotform-embed';
- 
-
+import './RegistCompetition.css'
 
 const RegistCompetition = () => {
     return (

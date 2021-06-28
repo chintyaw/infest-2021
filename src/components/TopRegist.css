@@ -2,11 +2,12 @@
     margin: auto;
     color: #F1F4F8;
     font-family: Poppins;
-    font-size: 2vw;
+    font-size: 2.7vw;
     background-color: #00192E;
     border: none;
     border-radius: 10px;
     padding: 15px 30px;
+    text-align: center;
 }
 
 .Button1:hover, .Button1:visited {

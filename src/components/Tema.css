@@ -10,20 +10,19 @@
     align-items: center;
 }
 
-.TulisanTema {
-    order: 1;
-    width: 40%;
-    color: #F1F4F8;
-}
-
 .JudulTema {
     font-size: 36px;
     font-family: 'Poppins';
     margin-bottom: 20px;
     text-align: left;
+    padding-top: 80px;
 }
 
 .TulisanTema {
+    order: 1;
+    width: 40%;
+    color: #F1F4F8;
+    align-items: center;
     font-family: 'Lexend';
     font-size: 20px;
     text-align: left;
@@ -42,12 +41,14 @@
         width: 100%;
         margin: auto;
         max-width: 70%;
+        align-items: center;
     }
 
     .GambarTema {
         display: flex;
         margin: auto;
         justify-content: center;
+        align-items: center;
         margin-bottom: 20px;
     }
 

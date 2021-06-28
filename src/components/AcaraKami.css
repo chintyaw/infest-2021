@@ -5,12 +5,10 @@
 }
 
 h1.judul {
-  padding-top: 8vw;
-  padding-bottom: 5vw;
   padding-left: 1vw;
   width: 90vw;
   margin: auto;
-  font-size: 5vw;
+  font-size: 36px;
 
   text-align: center;
   text-shadow: -6px 4px 4px rgba(0, 0, 0, 0.25);
@@ -19,10 +17,10 @@ h1.judul {
 .acara-container {
   /* max-height: 93vh; */
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 4vw;
-  margin-bottom: 6vw;
+  margin-bottom: 20vw;
 }
 
 .acara-card {
@@ -30,12 +28,11 @@ h1.judul {
   background: linear-gradient(180deg, #16cecc 0%, #011a2f 80%);
   box-shadow: 0px 6px 60px 6px rgba(79, 224, 190, 0.3);
   border-radius: 30px;
-  height: 1;
   cursor: pointer;
 
-  padding: 3vw 3vw;
-  padding-top: 5vw;
-  margin: 1vw 2vw;
+  padding: 2vw 2vw;
+  padding-top: 3vw;
+  margin: 2vw 2vw;
 
   justify-content: space-around;
   align-items: center;
@@ -51,8 +48,8 @@ h1.judul {
 .acara-card p {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 500;
-  font-size: 1.3vw;
-  height: 15.5vw;
+  font-size: 1.2vw;
+  height: 100%;
   color: white;
 
   padding-top: 3vw;
@@ -61,14 +58,14 @@ h1.judul {
 }
 
 .acara-card h1 {
-  padding-top: 2.5vw;
+  padding-top: 2vw;
   text-align: center;
 }
 
 .acara-icon {
   justify-content: space-around;
   width: 100%;
-  height: 9vw;
+  height: 6vw;
 }
 
 .acara-link {
@@ -82,7 +79,7 @@ h1.judul {
 
 @media screen and (max-width: 960px) {
   h1.judul {
-    font-size: 45px;
+    font-size: 24px;
     margin-bottom: 80px;
   }
 
@@ -91,7 +88,7 @@ h1.judul {
   }
 
   .acara-card {
-    width: 70%;
+    width: 50%;
     margin: auto;
     margin-bottom: 80px;
   }
@@ -104,20 +101,20 @@ h1.judul {
 
   .acara-icon {
     width: 100%;
-    height: 15vw;
+    height: 10vw;
   }
 
   .acara-card p {
-    font-size: 2.5vw;
+    font-size: 2vw;
     line-height: 30px;
-    padding: 3vw 3vw;
+    padding: 2vw 2vw;
   }
 
   .acara-link {
     opacity: 1;
 
     text-align: center;
-    margin-top: 12vw;
+    margin-top: 6vw;
     margin-bottom: 10px;
     font-size: 2vw;
     font-weight: 600;

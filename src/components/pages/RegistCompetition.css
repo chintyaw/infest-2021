@@ -1,3 +1,11 @@
 .formFooter, .formFooter-wrapper {
     display: none;
 }
+
+.formFooter {
+    display: none !important;
+}
+
+.error-navigation-inner, .error-navigation-inner {
+    display: none !important;
+}

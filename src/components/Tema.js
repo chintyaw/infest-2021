@@ -8,7 +8,7 @@ const Tema = () => {
                 <img src="/gambartema.webp" width="100%" alt="/"/>
             </div>
             <div className="TulisanTema">
-                <div className="JudulTema">
+                <div className="JudulTema" style={{textShadow: "-6px 4px 4px rgba(0, 0, 0, 0.25)" }}>
                     Rise Up and Invest
                 </div>
                 <div className="TemaDesc">

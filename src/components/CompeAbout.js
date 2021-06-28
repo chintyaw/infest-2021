@@ -4,7 +4,7 @@ import './Compe.css';
 const CompeAbout = () => {
     return (
         <div>
-            <h1 style={{ textAlign: "center", marginTop: "173px", marginBottom:"40px"}}>
+            <h1 style={{ textAlign: "center", marginTop: "173px", marginBottom:"40px", textShadow: "-6px 4px 4px rgba(0, 0, 0, 0.25)" }}>
             Tentang Competition
             </h1>
             <div className="AboutContainer">

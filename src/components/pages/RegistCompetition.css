@@ -1,0 +1,13 @@
+.formFooter,
+.formFooter-wrapper {
+  opacity: 0;
+}
+
+.formFooter {
+  opacity: 0 !important;
+}
+
+.error-navigation-inner,
+.error-navigation-inner {
+  opacity: 0 !important;
+}

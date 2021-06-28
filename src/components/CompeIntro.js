@@ -3,8 +3,8 @@ import './Compe.css'
 
 const CompeIntro = () => {
     return (
-        <div style={{ margin: "0", paddingTop: "180px", paddingBottom: "40px" }}>
-            <h1 style={{ fontSize: "7vh", textAlign: "center",marginBottom: "40px"}}>
+        <div style={{ margin: "0", paddingTop: "180px", paddingBottom: "40px"}}>
+            <h1 style={{textAlign: "center",paddingBottom: "40px", width: "80%", margin: "auto"}}>
                 TRADING COMPETITION
             </h1>
             <div className="IntroContainer">

@@ -3,7 +3,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: none;
 }
 
 .container {
@@ -28,6 +27,8 @@ main {
 .questionOpened h1{
   color: black;
   padding : 20px;
+  font-size: 18px;
+  padding : 0.5px 20px 5px;
 }
 .questionOpened header {
   display: flex;
@@ -38,8 +39,8 @@ main {
   text-transform: none;
   line-height: 1.5;
   color: black;
-  font-size: 20px;
-  padding : 40px 20px 40px;
+  font-size: 18px;
+  padding : 0.5px 20px 5px;
 }
 .questionOpened header h4 {
   margin-bottom: 0;
@@ -48,8 +49,8 @@ main {
   text-transform: none;
   line-height: 1.5;
   color: black;
-  font-size: 20px;
-  padding : 40px 20px 40px;
+  font-size: 18px;
+  padding : 20px 10px 20px;
 }
 .question p {
   color: black;

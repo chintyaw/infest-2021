@@ -1,142 +1,143 @@
 .navbar {
-    background-color: #00192E;
-    height: 85px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2rem;
-    padding: 0 30px;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  background-color: #00192e;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  z-index: 999;
+}
+
+.navbar-logo {
+  justify-self: start;
+  cursor: pointer;
+  size: 2rem;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 3rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #4fe0be;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
   }
-  
-  .navbar-logo {
-    justify-self: start;
-    cursor: pointer;
-    size: 2rem;
-    align-items: center;
-    margin-left: 3rem;
+  .NavbarItems {
+    position: relative;
   }
-  
-  .fa-firstdraft {
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
-  }
-  
+
   .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 70vw;
-    justify-content: end;
-    margin-right: 3rem;
-  }
-  
-  .nav-item {
     display: flex;
-    align-items: center;
-    height: 75px;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
   }
-  
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
   .nav-links {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
   }
-  
+
   .nav-links:hover {
-    background-color: #4FE0BE;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
+    background-color: #4fe0be;
+    border-radius: 0;
   }
-  
-  .fa-bars {
-    color: #fff;
+
+  .navbar-logo {
+    margin-left: 0px;
   }
-  
-  .nav-links-mobile {
-    display: none;
-  }
-  
+
   .menu-icon {
-    display: none;
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
   }
-  
-  @media screen and (max-width: 960px) {
-    .fa-caret-down {
-        display:none;
-    }
-    .NavbarItems {
-      position: relative;
-    }
-  
-    .nav-menu {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 90vh;
-      position: absolute;
-      top: 80px;
-      left: -100%;
-      opacity: 1;
-      transition: all 0.5s ease;
-    }
-  
-    .nav-menu.active {
-      background: #242222;
-      left: 0;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
-    }
-  
-    .nav-links {
-      text-align: center;
-      padding: 2rem;
-      width: 100%;
-      display: table;
-    }
-  
-    .nav-links:hover {
-      background-color: #4FE0BE;
-      border-radius: 0;
-    }
-  
-    .navbar-logo {
-      margin-left: 0px;
-    }
-  
-    .menu-icon {
-      display: block;
-      font-size: 1.8rem;
-      cursor: pointer;
-    }
-  
-    .fa-times {
-      color: #fff;
-      font-size: 2rem;
-    }
-  
-    .nav-links-mobile {
-      display: block;
-      text-align: center;
-      padding: 1.5rem;
-      margin: 2rem auto;
-      border-radius: 4px;
-      width: 80%;
-      background: #1888ff;
-      text-decoration: none;
-      color: #fff;
-      font-size: 1.5rem;
-    }
-  
-    .nav-links-mobile:hover {
-      background: #fff;
-      color: #4FE0BE;
-      transition: 250ms;
-    }
-  
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
   }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #1888ff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #4fe0be;
+    transition: 250ms;
+  }
+}

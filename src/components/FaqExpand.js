@@ -7,7 +7,7 @@ const Question = ({ title, info }) => {
   return (
     <article className={expanded? 'questionOpened':'question'}>
       <header>
-        <h1 onClick={() => setExpanded(!expanded)} className='question-title'>
+        <h1 style={{ textShadow: "none"}} onClick={() => setExpanded(!expanded)} className='question-title'>
           {title}
         </h1>
         <button className={expanded? 'btnOpened':'btn'} onClick={() => setExpanded(!expanded)}>

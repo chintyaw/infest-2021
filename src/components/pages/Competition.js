@@ -7,6 +7,7 @@ import TopRegist from '../TopRegist'
 import CompeAbout from '../CompeAbout'
 import BiayaPendaftaran from '../BiayaPendaftaran'
 import CompeIntro from '../CompeIntro'
+import AAA from '../FaqMapping'
 
 export default function Competition(){
     return (
@@ -17,6 +18,7 @@ export default function Competition(){
             <Hadiah />
             <BiayaPendaftaran />
             <TimelineCompe />
+            <AAA/>
             <BottomRegist />
         </>
     )

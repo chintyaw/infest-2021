@@ -5,6 +5,7 @@ import Tentang from "../Tentang";
 import Tema from "../Tema";
 import AcaraKami from "../AcaraKami";
 import Timeline from "../Timeline";
+import AAA from "../FaqMapping";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Tema />
       <AcaraKami />
       <Timeline />
+      <AAA />
     </div>
   );
 }

@@ -9,7 +9,7 @@ const AAA = () => {
   return (
     <main>
       <div className='container'>
-        <h1 style={{textAlign: 'center', fontSize : '36px', marginBottom :'60px'}}>Frequently Asked Question</h1>
+        <h1 style={{textAlign: 'center', marginBottom :'60px'}}>Frequently Asked Question</h1>
         <section className='info'>
           {questions.map((question) => (
             <SingleQuestion key={question.id} {...question} />

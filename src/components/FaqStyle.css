@@ -29,7 +29,7 @@ main {
   line-height: 1.5;
   padding : 20px;
   font-size: 18px;
-  padding : 0.5px 20px 25px;
+  padding : 20px 20px 25px;
 }
 .questionOpened header {
   display: flex;
@@ -41,7 +41,7 @@ main {
   line-height: 1.5;
   color: black;
   font-size: 18px;
-  padding : 0.5px 20px 5px;
+  padding : 0.5px 20px 20px;
 }
 .questionOpened header h4 {
   margin-bottom: 0;
@@ -106,6 +106,21 @@ main {
 
 .question-title {
   cursor: pointer;
+}
+
+@media screen and (max-width : 960px) {
+  .container {
+    width: 90%;
+  }
+  .question h1 {
+    font-size: 15px;
+  }
+  .questionOpened h1{
+    font-size: 15px;
+  }
+  .questionOpened p{
+    font-size: 15px;
+  }
 }
 
 

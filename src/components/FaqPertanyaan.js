@@ -12,7 +12,7 @@ const questions = [
   {
     id: 2,
     title: 'Bagaimana mendaftar Trading Competition',
-    info: <text><span>&#8226;</span> Mengisi formulir pendaftaran melalui <a href='/registrasicompetition'><b><i>click here</i></b></a><br/>
+    info: <text><span>&#8226;</span> Mengisi formulir pendaftaran melalui <a href='/registrasicompetition'><b><i>link berikut</i></b></a><br/>
                 <span>&#8226;</span> Mendapatkan konfirmasi registrasi maksimal H+1 setelah pembayaran <br/>   
           </text> 
   },
@@ -25,7 +25,7 @@ const questions = [
     id: 4,
     title: 'Apakah seluruh peserta Trading Competition akan mendapatkan sertifikat?',
     info:
-      <text>Iya, seluruh peserta akan mendapat sertifikat</text>
+      <text>Ya, seluruh peserta akan mendapat sertifikat</text>
   },
   {
     id: 5,
@@ -35,7 +35,7 @@ const questions = [
   {
     id: 6,
     title: 'Kapan dan di mana sertifikat diberikan?',
-    info: <text>Seluruh sertifikat akan dibagikan melalui e-mail ketua tim masing-masing maksimal</text>
+    info: <text>Seluruh sertifikat akan dibagikan melalui e-mail ketua tim masing-masing maksimal H+7 setelah acara berakhir</text>
   },
 ]
 export default questions

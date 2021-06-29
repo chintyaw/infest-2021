@@ -26,9 +26,10 @@ main {
 }
 .questionOpened h1{
   color: black;
+  line-height: 1.5;
   padding : 20px;
   font-size: 18px;
-  padding : 0.5px 20px 5px;
+  padding : 0.5px 20px 25px;
 }
 .questionOpened header {
   display: flex;
@@ -51,10 +52,6 @@ main {
   color: black;
   font-size: 18px;
   padding : 20px 10px 20px;
-}
-.question p {
-  color: black;
-  padding : 20px;
 }
 .question header {
   display: flex;

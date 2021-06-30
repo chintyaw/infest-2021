@@ -2,7 +2,7 @@
     margin: auto;
     color: #F1F4F8;
     font-family: Poppins;
-    font-size: 2vw;
+    font-size: 24px;
     background-color: #00192E;
     border: none;
     border-radius: 10px;
@@ -30,6 +30,7 @@
     }
 
     .Button1 {
-        width: 30%;
+        width: 60%;
+        font-size: 15px;
     }
 }

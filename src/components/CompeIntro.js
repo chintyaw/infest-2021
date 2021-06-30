@@ -9,7 +9,7 @@ const CompeIntro = () => {
             </h1>
             <div className="IntroContainer">
                 <div className="Paragraph" style={{ width: "50%" }}>
-                Trading competition merupakan kompetisi trading yang menitikberatkan kemampuan analisis peserta dalam upaya memperoleh keuntungan sebesar-besarnya.
+                Trading competition merupakan kompetisi trading yang menitikberatkan kemampuan analisis teknikal peserta dalam upaya memperoleh keuntungan sebesar-besarnya.
                 </div>
             </div>
         </div>

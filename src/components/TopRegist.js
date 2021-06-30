@@ -8,8 +8,8 @@ const TopRegist = () => {
             <Link to="/registrasicompetition" style={{ textDecoration: 'none' }}>
                 <button type="button" className="Button1" style={{fontFamily: 'Poppins', margin:"10px"}}>Registrasi</button>
             </Link>
-            <Link to="/competition" style={{ textDecoration: 'none' }}>
-                <button type="button" className="Button1" style={{fontFamily: 'Poppins', margin:"10px"}}>Link Guidebook</button>
+            <Link to="https://bit.ly/INFESTTradingCompetition" style={{ textDecoration: 'none' }}>
+                <button type="button" className="Button1" style={{fontFamily: 'Poppins', margin:"10px"}}>Booklet</button>
             </Link>
         </div>
     )

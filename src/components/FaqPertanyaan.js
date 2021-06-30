@@ -30,7 +30,7 @@ const questions = [
   {
     id: 5,
     title: 'Platform apa yang digunakan untuk Trading Competition?',
-    info: <text>IDX</text>
+    info: <text>IDX Trading</text>
   },
   {
     id: 6,

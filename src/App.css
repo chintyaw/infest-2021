@@ -7,20 +7,25 @@
 
 html {
   scroll-behavior: smooth;
-  background-position: center center;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-position: top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100%; 
   overflow: hidden;
-  background-repeat: repeat-y;
+  background-repeat: repeat-y; */
 }
 
 body {           
+  /* overflow-y: scroll;
   height:100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden; */
   }
 
 .home, .webinar, .workshop, .competition, .acara {

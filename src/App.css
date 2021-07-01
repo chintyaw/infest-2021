@@ -14,11 +14,13 @@ html {
   background-size: cover;
   height: 100%; 
   overflow: hidden;
+  background-repeat: repeat-y;
 }
 
 body {           
   height:100%;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   }
 
 .home, .webinar, .workshop, .competition, .acara {

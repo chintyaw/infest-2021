@@ -13,7 +13,7 @@ import RegistCompetition from './components/pages/RegistCompetition';
 
 function App() {
   return (
-    <div style={{ backgroundImage: "url(/background4.webp)" }}>
+    <div style={{ width: "100%", backgroundImage: "url(/background4.webp)" }}>
       <Router>
         <ScrollToTop>
           <Navbar />

@@ -27,13 +27,13 @@ const questions = [
     info:
       <text>Ya, seluruh peserta akan mendapat sertifikat</text>
   },
+  // {
+  //   id: 5,
+  //   title: 'Platform apa yang digunakan untuk Trading Competition?',
+  //   info: <text>IDX Trading</text>
+  // },
   {
     id: 5,
-    title: 'Platform apa yang digunakan untuk Trading Competition?',
-    info: <text>IDX Trading</text>
-  },
-  {
-    id: 6,
     title: 'Kapan dan di mana sertifikat diberikan?',
     info: <text>Seluruh sertifikat akan dibagikan melalui e-mail ketua tim masing-masing maksimal H+7 setelah acara berakhir</text>
   },

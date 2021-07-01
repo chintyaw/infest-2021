@@ -11,7 +11,7 @@ h1.judul {
   margin-bottom: 60px;
 
   text-align: center;
-  text-shadow: -6px 4px 4px rgba(0, 0, 0, 0.25);
+  /* text-shadow: -6px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .timeline-card {

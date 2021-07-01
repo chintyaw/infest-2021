@@ -11,7 +11,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 24px;
     line-height: 20px;
     align-items: center;
     color: #F1F4F8;
@@ -28,5 +28,9 @@
 @media screen and (max-width: 960px) {
     .Paragraph {
         font-size: 18px;
+    }
+
+    .Daftar {
+        font-size: 15px;
     }
 }

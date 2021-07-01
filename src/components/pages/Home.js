@@ -6,6 +6,7 @@ import Tema from "../Tema";
 import AcaraKami from "../AcaraKami";
 import Timeline from "../Timeline";
 import AAA from "../FaqMapping";
+import Teaser from "../Teaser";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <JudulInfest />
       <Tentang />
       <Tema />
+      <Teaser />
       <AcaraKami />
       <Timeline />
       <AAA />

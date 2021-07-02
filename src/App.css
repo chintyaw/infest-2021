@@ -22,12 +22,6 @@ html {
   background-repeat: repeat-y; */
 }
 
-body {           
-  /* overflow-y: scroll;
-  height:100%;
-  overflow-x: hidden; */
-  }
-
 .home, .webinar, .workshop, .competition, .acara {
   display: flex;
   height: 90vh;

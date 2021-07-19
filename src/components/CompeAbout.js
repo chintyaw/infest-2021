@@ -10,7 +10,7 @@ const CompeAbout = () => {
             <div className="AboutContainer">
                 <p className="Paragraph">
                 Trading Competition merupakan kompetisi trading berkelompok 1-3 orang yang terdiri dari Preliminary Stage dan Final Stage. 
-                Selama kompetisi berlangsung, peserta akan diminta untuk memaksimalkan keuntungan dari modal uang virtual sebesar Rp120.000.000,00 
+                Selama kompetisi berlangsung, peserta akan diminta untuk memaksimalkan keuntungan dari modal uang virtual sebesar Rp150.000.000,00 
                 selama 4 minggu. Pada akhirnya, hasil yang didapat akan ditampilkan dalam bentuk history trading dan presentasi virtual.
                 </p>
             </div>

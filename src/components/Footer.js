@@ -94,9 +94,9 @@ const Footer = () => {
                             </a>
 
                             <h5 className="ContactName">Afifah</h5>
-                            <a href="https://api.whatsapp.com/send?phone=628217759754" target="_blank" rel="noopener noreferrer">
+                            <a href="https://api.whatsapp.com/send?phone=6282177597548" target="_blank" rel="noopener noreferrer">
                             <div className="Whatsapp">
-                                <h5>08217759754</h5>
+                                <h5>082177597548</h5>
                                 <div className="ContactIcon">
                                     <i class="fab fa-whatsapp fa-lg" />
                                 </div>

@@ -22,7 +22,7 @@ const BenefitBiayaWebi = () => {
                 Biaya
             </h1>
             <div className="Daftar">
-                Workshop-Rp 20.000,00
+                Webinar-Rp xx.xxx,xx
                 <br></br><br></br>
                 Workshop + Webinar Bundle-Rp. xx.xxx,xx
             </div>

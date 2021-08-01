@@ -18,7 +18,7 @@ const BenefitBiayaWebi = () => {
                 • Sertifikat untuk setiap peserta
                 </h2>
             </div>
-            <h1 style={{textAlign: "center", marginBottom:"20px"}}>
+            <h1 style={{textAlign: "center", marginBottom:"40px"}}>
                 Biaya
             </h1>
             <div className="Daftar">

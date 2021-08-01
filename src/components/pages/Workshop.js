@@ -3,12 +3,17 @@ import '../../App.css'
 import WorkshopAbout from '../WorkshopAbout'
 import BottomRegistWork from '../BottomRegistWork';
 import BenefitBiayaWorkshop from '../BenefitBiayaWorkshop';
+import WorkIntro from "../WorkIntro";
+import TopRegistWork from '../TopRegistWork'
+import SpeakerWork from '../SpeakerWork';
 
 export default function Workshop(){
     return (
         <>
-            <h1 className='workshop'> Coming Soon </h1>
+            <WorkIntro />
+            <TopRegistWork />
             <WorkshopAbout />
+            <SpeakerWork />
             <BenefitBiayaWorkshop/>
             <BottomRegistWork/>
         </>

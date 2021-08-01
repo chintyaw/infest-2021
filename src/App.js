@@ -10,6 +10,8 @@ import Footer from './components/Footer'
 import Home from './components/pages/Home'
 import ScrollToTop from './components/ScrollToTop';
 import RegistCompetition from './components/pages/RegistCompetition';
+import RegistWorkshop from './components/pages/RegistWorkshop';
+import RegistWebinar from './components/pages/RegistWebinar';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path='/competition' exact component={Competition} />
             <Route path='/acara' exact component={Acara} />
             <Route path='/registrasicompetition' exact component={RegistCompetition} />
+            <Route path='/registrasiworkshop' exact component={RegistWorkshop} />
+            <Route path='/registrasiwebinar' exact component={RegistWebinar} />
           </Switch>
         </ScrollToTop>
       </Router>

@@ -8,6 +8,9 @@ const BenefitBiayaWorkshop = () => {
                 <h1 style={{textAlign: "center", marginBottom:"40px"}}>
                 Benefit
                 </h1>
+                <img className="timeline-card" src="/benefitwork.svg" alt="benefit"/>
+
+                {/* </h1>
                 <h2 style={{textAlign: "center", marginBottom:"20px"}}>
                 • Pengajaran secara langsung
                 </h2>
@@ -16,7 +19,8 @@ const BenefitBiayaWorkshop = () => {
                 </h2>
                 <h2 style={{textAlign: "center", marginBottom:"20px"}}>
                 • Sertifikat untuk setiap peserta
-                </h2>
+                </h2> */}
+
             </div>
             <h1 style={{textAlign: "center", marginBottom:"40px"}}>
                 Biaya

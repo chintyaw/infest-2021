@@ -87,6 +87,7 @@ main {
   color: #000;
   font-size: 18px;
   padding: 20px 10px 20px;
+  width : 100%;
 }
 .question header {
   display: flex;

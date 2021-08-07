@@ -5,7 +5,7 @@ import Tentang from "../Tentang";
 import Tema from "../Tema";
 import AcaraKami from "../AcaraKami";
 import Timeline from "../Timeline";
-import AAA from "../FaqMapping";
+import Tabs from "../FAQHome/Tabs";
 import Teaser from "../Teaser";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <Teaser />
       <AcaraKami />
       <Timeline />
-      <AAA />
+      <Tabs />
     </div>
   );
 }

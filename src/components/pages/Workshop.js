@@ -6,6 +6,7 @@ import BenefitBiayaWorkshop from '../BenefitBiayaWorkshop';
 import WorkIntro from "../WorkIntro";
 import TopRegistWork from '../TopRegistWork'
 import SpeakerWork from '../SpeakerWork';
+import Work from '../FAQWork/FaqMappingWo';
 
 export default function Workshop(){
     return (
@@ -16,6 +17,7 @@ export default function Workshop(){
             <SpeakerWork />
             <BenefitBiayaWorkshop/>
             <BottomRegistWork/>
+            <Work />
         </>
     )
 }

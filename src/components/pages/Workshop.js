@@ -16,8 +16,8 @@ export default function Workshop(){
             <WorkshopAbout />
             <SpeakerWork />
             <BenefitBiayaWorkshop/>
-            <BottomRegistWork/>
             <Work />
+            <BottomRegistWork/>
         </>
     )
 }

@@ -16,8 +16,8 @@ export default function Webinar() {
       <WebinarAbout />
       <Speaker />
       <BenefitBiayaWebi/>
-      <BottomRegistWebi />
       <Webi />
+      <BottomRegistWebi />
     </>
   );
 }

@@ -52,7 +52,7 @@ const questionsWe = [
     },
     {
       id: 8,
-      title: 'Dimana webinar akan dilaksanakan?',
+      title: 'Di mana webinar akan dilaksanakan?',
       info: <text>
         Webinar akan diselenggarakan secara online melalui platform Zoom Meeting
       </text>

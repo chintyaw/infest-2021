@@ -64,6 +64,7 @@ main {
   padding: 20px;
   font-size: 18px;
   padding: 20px 10px 25px;
+  width : 100%;
 }
 
 .questionOpened header {

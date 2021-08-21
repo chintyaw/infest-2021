@@ -4,7 +4,10 @@ const questionsWe = [
       title: 'Berapa harga tiket INFEST?',
       info:
         <text>
-          Biaya tiket INFEST adalah Rp… untuk...
+        Biaya tiker webinar INFEST dibagi menjadi beberapa tipe : <br />
+        <span>&#8226;</span> <text>Rp 25.000 untuk 1 day (2 mata acara)</text><br />
+        <span>&#8226;</span> <text>Rp 30.000 untuk 2 day (4 mata acara)</text><br />
+        <span>&#8226;</span> <text>Rp 40.000 untuk 2 day webinar dan workshop</text><br />  
         </text>
     },
     {
@@ -16,7 +19,7 @@ const questionsWe = [
     {
       id: 3,
       title: 'Kapan periode pembelian tiket webinar INFEST?',
-      info: <text>29 Agustus 2021 - 23 September 2021</text>
+      info: <text>28 Agustus 2021 - 23 September 2021</text>
     },
     {
       id: 4,

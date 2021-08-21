@@ -16,7 +16,9 @@ const workshopF = [
     {
       id: 3,
       title: 'Kapan periode pembelian tiket workshop INFEST?',
-      info: <text>?</text>
+      info: <text>Pembelian tiket workshop dapat dilakukan pada 28 Agustus 2021 hingga
+        10 September 2021
+      </text>
     },
     {
       id: 4,
@@ -32,6 +34,23 @@ const workshopF = [
       info: <text>
         Peserta <i>Trading Competition</i> tidak diwajibkan untuk mengikuti workshop. Namun, akan sangat dianjurkan bagi peserta untuk 
         mengikuti workshop karena workshop ini akan menambah <i>skill</i> penunjang peserta dalam mengikuti perlombaan.
+      </text>
+    },
+    {
+      id: 6,
+      title: 'Apakah peserta mendapatkan e-certificate?',
+      info: <text>
+        Ya, seluruh peserta mendapatkan e-certificate yang akan dikirimkan 
+        melalui email yang didaftarkan
+      </text>
+    },
+    {
+      id: 7,
+      title: 'Apa benefit yang didapatkan dengan mengikuti workshop ini?',
+      info: <text>
+        Peserta workshop akan mendapatkan ilmu finansial dalam mengatur keuangan dan praktek secara langsung bersama pembicara, 
+        mendapatkan e-certificate, dan berkesempatan untuk mendapatkan hadiah total uang tunai sebesar Rp 450.000 untuk 3 orang 
+        peserta yang beruntung 
       </text>
     },
   ]

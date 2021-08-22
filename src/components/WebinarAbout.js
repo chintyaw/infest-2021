@@ -8,7 +8,7 @@ const WebinarAbout = () => {
             </h1>
             <div className="AboutContainer">
                 <p className="Paragraph">
-                Webinar merupakan
+                Webinar merupakan acara puncak INFEST 2021. Webinar terdiri dari 2 Day secara daring dengan topik dan pembicara ternama dari Finansialku, Ternak Uang, Sucor Sekuritas, KPEI, dan Mirae Asset.
                 </p>
             </div>
         </div>

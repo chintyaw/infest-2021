@@ -4,6 +4,31 @@
   box-sizing: border-box;
 }
 
+.text-speaker-right h2, .text-speaker-left h2 {
+  font-size: 32px;
+  font-family: Poppins;
+}
+
+.datetime, .date, .time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.datetime-right, .date-right, .time-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.datetime h3, .datetime-right h3 {
+  font-size: 1.25rem;
+}
+
+.date, .date-right {
+  margin-right: 4rem;
+}
+
 .speaker-container {
   display: flex;
   width: 80%;
@@ -18,8 +43,7 @@
 .speaker-right {
   display: flex;
   width: 90%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .text-speaker-right,
@@ -42,9 +66,20 @@
 
 .speaker-left img,
 .speaker-right img {
-  width: 30%;
+  width: 35%;
 }
 
+.judul-speaker h1 {
+  text-align: left;
+}
+
+.judul-speaker-right h1 {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  overflow-wrap: normal;
+
+} 
 /* QUERY */
 @media screen and (max-width: 960px) {
   .speaker-container {
@@ -52,22 +87,30 @@
     width: 100%;
   }
 
+  .text-speaker-right h2 {
+    font-size: 24px;
+  }
+
+  .text-speaker-left h2 {
+    font-size: 24px;
+  }
+
   .speaker-left {
     width: 100%;
     flex-direction: column;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .speaker-right {
     flex-direction: column-reverse;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .speaker-left img,
   .speaker-right img {
-    width: 35%;
+    width: 30%;
     margin: auto;
   }
 
@@ -82,6 +125,10 @@
   .text-speaker-right h3 {
     font-size: 14px;
     line-height: 2rem;
+    text-align: center;
+  }
+
+  .judul-speaker h1 {
     text-align: center;
   }
 }

@@ -73,6 +73,10 @@
   text-align: left;
 }
 
+.judul-speaker, .judul-speaker-right {
+  width: 80%;
+}
+
 .judul-speaker-right h1 {
   text-align: right;
   display: flex;

@@ -5,27 +5,28 @@ function SpeakerWork() {
   return (
     <>
       <div className="speaker-container">
-        <div className="speaker-left">
-          <img src="/speaker-0.png" alt="speaker" />
-          <div className="text-speaker-right">
-            <h1>Speaker 1</h1>
-            <h3>
-              This is speaker 1 description. This is speaker 1 description. This
-              is speaker 1 description.
-            </h3>
+
+        <div className="judul-speaker">
+          <h1>Guide to Make Smart Financial Decisions</h1>
+          <div className="datetime">
+            <div className="date">
+              <i class="fa fa-calendar" aria-hidden="true" style={{ color: 'white' }}></i>
+              <h3>11 September 2021</h3>
+            </div>
+            <div className="time">
+              <i class="fa fa-clock" aria-hidden="true" style={{ color: 'white' }}></i>
+              <h3>13.00 - 15.10 WIB</h3>
+            </div>
+          </div>
+
+          <div className="speaker-left">
+            <img src="/melvin-mumpuni.svg" alt="speaker" />
+            <div className="text-speaker-right">
+              <h2 style={{lineHeight: "3rem", alignItems: "center", display: "inline-block"}}>Dega Rapidity, S.E., RSA®., CAP®., CSA®., CPF., AWP®.</h2>
+            </div>
           </div>
         </div>
 
-        <div className="speaker-right">
-          <div className="text-speaker-left">
-            <h1>Speaker 2</h1>
-            <h3>
-              This is speaker 2 description. This is speaker 2 description. This
-              is speaker 2 description.
-            </h3>
-          </div>
-          <img src="/speaker-0.png" alt="speaker" />
-        </div>
       </div>
     </>
   );

@@ -20,7 +20,7 @@ function SpeakerWork() {
           </div>
 
           <div className="speaker-left">
-            <img src="/melvin-mumpuni.svg" alt="speaker" />
+            <img src="/dega.svg" alt="speaker" />
             <div className="text-speaker-right">
               <h2 style={{lineHeight: "3rem", alignItems: "center", display: "inline-block"}}>Dega Rapidity, S.E., RSA®., CAP®., CSA®., CPF., AWP®.</h2>
             </div>

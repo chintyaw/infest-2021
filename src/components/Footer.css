@@ -60,6 +60,7 @@ h5 {
     align-items: flex-start;
     padding: 0px;
     color:#F1F4F8;
+    justify-content: left;
 }
 
 .FooterContainer {

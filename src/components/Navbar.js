@@ -50,7 +50,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          <img src="/infest-logo.svg" width="150px" height="50px" alt="" />
+          <img src="/infest-logo.webp" width="auto" height="50px" alt="" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />

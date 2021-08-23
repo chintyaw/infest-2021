@@ -2,7 +2,7 @@ import React from 'react'
 
 const JudulInfest = () => {
     return (
-        <div style={{ margin: "0", paddingTop: "180px", paddingBottom: "90px" }} className="Judul">
+        <div style={{ margin: "0", paddingTop: "180px", paddingBottom: "60px" }} className="Judul">
             <div className="GambarJudul" style={{ width: "100%", display: "flex", justifyContent: "center" }}>
                 <img style={{ marginBottom: "20px", width: "70%", height: "auto" }} src="/judul-infest.webp" alt="/" />
             </div>

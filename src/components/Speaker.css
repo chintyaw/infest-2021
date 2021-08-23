@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-speaker-right h2, .text-speaker-left h2 {
+  font-size: 32px;
+  font-family: Poppins;
+}
+
+.datetime, .date, .time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.datetime-right, .date-right, .time-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.datetime h3, .datetime-right h3 {
+  font-size: 1.25rem;
+  font-family: Lexend;
+  line-height: 1.75rem;
+}
+
+.date, .date-right {
+  margin-right: 4rem;
+}
+
+.speaker-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 160px;
+}
+
+.speaker-left,
+.speaker-right {
+  display: flex;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.text-speaker-right,
+.text-speaker-left {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.text-speaker-left {
+  text-align: right;
+}
+
+.text-speaker-left h3,
+.text-speaker-right h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  height: fit-content;
+  font-family: Lexend;
+}
+
+.speaker-left img,
+.speaker-right img {
+  width: 35%;
+}
+
+.speaker-left img {
+  margin-right: 2rem;
+}
+
+.speaker-right img {
+  margin-left: 2rem;
+}
+
+.judul-speaker h1 {
+  text-align: left;
+}
+
+.judul-speaker, .judul-speaker-right {
+  width: 90%;
+}
+
+.judul-speaker-right h1 {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  overflow-wrap: normal;
+
+} 
+/* QUERY */
+@media screen and (max-width: 960px) {
+  .speaker-container {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .datetime h3, .datetime-right h3 {
+    font-size: 18px;
+  }
+
+  .text-speaker-right h2 {
+    font-size: 24px;
+    justify-content: center;
+  }
+
+  .text-speaker-left h2 {
+    font-size: 24px;
+    justify-content: center;
+  }
+
+  .speaker-left {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .speaker-right {
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .speaker-left img,
+  .speaker-right img {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 32px;
+  }
+
+  .text-speaker-left h1,
+  .text-speaker-right h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 2rem 0;
+  }
+
+  .text-speaker-left h3,
+  .text-speaker-right h3 {
+    font-size: 18px;
+    line-height: 2rem;
+    text-align: center;
+    font-family: Lexend;
+  }
+
+  .judul-speaker h1, .judul-speaker-right h1, .judul-speaker h2, .judul-speaker-right h2 {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .datetime {
+    justify-content: center;
+  }
+  
+  .datetime-right {
+    justify-content: center;
+  }
+
+  .judul-speaker, .judul-speaker-right {
+    width: 80%;
+  }
+
+  .date {
+    margin-right: 10px;
+  }
+}

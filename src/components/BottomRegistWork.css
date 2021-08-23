@@ -1,0 +1,38 @@
+h1 {
+    font-size: 36px;
+    /* text-shadow: -6px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+.Button {
+    width: 100%;
+    margin: auto;
+    color: #F1F4F8;
+    font-family: Poppins;
+    font-size: 24px;
+    background-color: #00192E;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.Button:hover, .Button:visited {
+    cursor: pointer;
+    color: #00192E;
+    background-color: #16CECC;
+    text-decoration:none;
+    transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .Button {
+        text-overflow: wrap;
+        font-size: 15px;
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}

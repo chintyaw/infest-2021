@@ -8,7 +8,7 @@ const Sponsor = () => {
                 <a href="https://miraeasset.co.id/" target="_blank" rel="noreferrer" style={{ display: "flex", justifyContent: "center" }}>
                     <img style={{ width: "60%", height: "auto", objectFit: "cover", margin: "auto", marginBottom: "50px"  }} src="/mirae-logo.png" alt="/" />
                 </a>
-                <img style={{ width: "70%", height: "auto", objectFit: "cover", margin: "auto" }} src="/sponsor.svg" alt="/" />
+                <img style={{ width: "60%", height: "auto", objectFit: "cover", margin: "auto" }} src="/sponsor.svg" alt="/" />
             </div>
         </div>
     )

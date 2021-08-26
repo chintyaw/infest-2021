@@ -1,13 +1,9 @@
 import React from 'react'
 import '../../App.css'
-import JotformEmbed from "react-jotform-embed";
+import { Widget } from '@typeform/embed-react'
 
 const RegistWebinar = () => {
-    return (
-        <div style={{paddingTop: "120px"}}>
-           <JotformEmbed src="https://form.jotform.com/212364833668463" />
-        </div>
-    )
+    return <Widget id="YDMVdcb8" style= {{width: '100%', height: '580px', color: '#F1F4F8', paddingTop: "80px"}} className="my-form" />
 }
 
 export default RegistWebinar;

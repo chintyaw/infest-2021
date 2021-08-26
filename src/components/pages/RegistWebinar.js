@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../App.css'
+import JotformEmbed from "react-jotform-embed";
 
 const RegistWebinar = () => {
     return (
         <div style={{paddingTop: "120px"}}>
-           <h1 className="webinar"> Coming Soon </h1>
+           <JotformEmbed src="https://form.jotform.com/212364833668463" />
         </div>
     )
 }

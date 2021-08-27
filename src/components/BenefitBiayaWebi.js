@@ -21,14 +21,10 @@ const BenefitBiayaWebi = () => {
                 • Sertifikat untuk setiap peserta
                 </h2> */}
             </div>
-            <h1 style={{textAlign: "center", marginBottom:"40px"}}>
+            <h1 style={{textAlign: "center", marginBottom:"62px"}}>
                 Biaya
             </h1>
-            <div className="Daftar">
-                Webinar-Rp xx.xxx,xx
-                <br></br><br></br>
-                Workshop + Webinar Bundle-Rp. xx.xxx,xx
-            </div>
+            <img className="timeline-card" src="/biayawebi.svg" alt="benefit"/>
         </div>
     )
 }

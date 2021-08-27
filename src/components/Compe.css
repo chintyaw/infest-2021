@@ -25,6 +25,10 @@
     margin-bottom: 200px;
 }
 
+.timeline-card {
+    width: 70%;
+}
+
 @media screen and (max-width: 960px) {
     .Paragraph {
         font-size: 18px;
@@ -33,4 +37,9 @@
     .Daftar {
         font-size: 15px;
     }
+
+    .timeline-card {
+        width: 90%;
+    }
+    
 }

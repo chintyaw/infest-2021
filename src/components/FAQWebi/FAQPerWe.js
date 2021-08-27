@@ -13,7 +13,7 @@ const questionsWe = [
     {
       id: 2,
       title: 'Bagaimana cara pembayaran tiket INFEST?',
-      info: <text>Pembayaran dapat dilakukan melalui OVO, Gopay, BNI, BCA 
+      info: <text>Pembayaran dapat dilakukan melalui OVO, Gopay, BCA 
       </text>
     },
     {

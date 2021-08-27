@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Home from './components/pages/Home'
 import ScrollToTop from './components/ScrollToTop';
 import RegistCompetition from './components/pages/RegistCompetition';
+import RegistInfest from './components/pages/RegistInfest';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/competition' exact component={Competition} />
             <Route path='/acara' exact component={Acara} />
             <Route path='/registrasicompetition' exact component={RegistCompetition} />
+            <Route path='/registinfest' exact component={RegistInfest} />
           </Switch>
         </ScrollToTop>
       </Router>

@@ -1,0 +1,62 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .containerA {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width : auto;
+    height: auto;
+  }
+  .bloc-tabs :hover {
+    background-color: #4fe0be ;
+  }
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+    padding: 15px;
+    text-align: center;
+    width: 10%;
+    background : #f0f3f9 ;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    border : none;
+    border-radius: 30px;
+    margin : 20px 15px 20px;
+    font-family: 'Poppins';
+    font-size: 18px;
+  }  
+  .active-tabs  {
+    background: #4fe0be;
+  }
+  
+  button {
+    border: none;
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .active-content {
+    display: block;
+  }
+
+  @media screen and (max-width: 960px) {
+    .tabs{
+        width: 15%;
+        font-size: 15px;
+        margin : 0px 15px 10px;
+    }
+  }

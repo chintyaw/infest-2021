@@ -1,0 +1,20 @@
+.formcontainer {
+  display: flex;
+  padding-top: 80px;
+}
+
+.postercontainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .formcontainer {
+    font-size: 24px;
+    display: block;
+  }
+  .postercontainer {
+    width: 100%;
+  }
+}

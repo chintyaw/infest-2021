@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import data from './FaqPertanyaan'
-import SingleQuestion from './FaqExpand'
+import data from './FAQPerWe'
+import SingleQuestion from './FaqExpandWe'
 import './FaqStyle.css'
 
-const AAA = () => {
-  const [questions] = useState(data)
+const Webi = () => {
+  const [questionsWe] = useState(data)
 
   return (
     <main>
       <div className='container'>
         <h1 style={{textAlign: 'center', marginBottom :'60px'}}>Frequently Asked Question</h1>
         <section className='info'>
-          {questions.map((question) => (
+          {questionsWe.map((question) => (
             <SingleQuestion key={question.id} {...question} />
           ))}
         </section>
@@ -20,4 +20,4 @@ const AAA = () => {
   )
 }
 
-export default AAA
+export default Webi

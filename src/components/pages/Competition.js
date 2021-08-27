@@ -7,7 +7,7 @@ import TopRegist from '../TopRegist'
 import CompeAbout from '../CompeAbout'
 import BiayaPendaftaran from '../BiayaPendaftaran'
 import CompeIntro from '../CompeIntro'
-import AAA from '../FaqMapping'
+import AAA from '../FAQCompe/FaqMapping'
 
 export default function Competition(){
     return (

@@ -9,7 +9,7 @@ const WorkIntro = () => {
             </h1>
             <div className="IntroContainer">
                 <div className="Paragraph" style={{ width: "50%" }}>
-                Workshop online berisi materi sekaligus praktek langsung mengenai investasi dan pasar modal oleh ahli dalam bidangnya.
+                Workshop online berisi materi sekaligus praktek langsung mengenai pengaturan keuangan oleh ahli dalam bidangnya.
                 </div>
             </div>
         </div>

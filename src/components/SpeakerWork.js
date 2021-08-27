@@ -15,7 +15,7 @@ function SpeakerWork() {
             </div>
             <div className="time">
               <i class="fa fa-clock" aria-hidden="true" style={{ color: 'white' }}></i>
-              <h3>13.00 - 15.10 WIB</h3>
+              <h3>13.00 - 15.25 WIB</h3>
             </div>
           </div>
 

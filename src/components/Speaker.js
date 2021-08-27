@@ -58,7 +58,7 @@ function Speaker() {
         </div>
 
         <div className="judul-speaker">
-          <h1>Tech-Stocks, Take It Or Leave It</h1>
+          <h1>Maximizing Value and Growth Investing through Portfolio Management</h1>
           <div className="datetime">
             <div className="date">
               <i class="fa fa-calendar" aria-hidden="true" style={{ color: 'white' }}></i>
@@ -71,11 +71,12 @@ function Speaker() {
           </div>
 
           <div className="speaker-left">
-            <img src="/timothy-ronald.svg" alt="speaker" />
+            <img src="/bernard-wijaya.svg" alt="speaker" />
             <div className="text-speaker-right">
-              <h2>Timothy Ronald</h2>
+              <h2>Bernardus Wijaya</h2>
               <h3>
-                • Young Investor <br /> • CO-Founder of Ternak Uang
+                • CEO of Sucor Sekuritas
+                <br /> • Forbes 30 Under 30 2021
               </h3>
             </div>
           </div>
@@ -83,7 +84,7 @@ function Speaker() {
 
         <div className="judul-speaker-right">
           <h1>
-            Maximizing Value and Growth Investing through Portfolio Management
+          Tech-Stocks, Take It Or Leave It
           </h1>
           <div className="datetime-right">
             <div className="date-right">
@@ -98,13 +99,13 @@ function Speaker() {
 
           <div className="speaker-right">
             <div className="text-speaker-left">
-              <h2>Bernardus Wijaya</h2>
+              <h2>Timothy Ronald</h2>
               <h3>
-                • CEO of Sucor Sekuritas
-                <br /> • Forbes 30 Under 30 2021
+                • Young Investor
+                <br /> • CO-Founder of Ternak Uang
               </h3>
             </div>
-            <img src="/bernard-wijaya.svg" alt="speaker" />
+            <img src="/timothy-ronald.svg" alt="speaker" />
           </div>
         </div>
       </div>

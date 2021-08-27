@@ -28,14 +28,14 @@ const workshopF = [
              Pada workshop, akan disajikan <i>hands-on exercise template</i> yang dapat dikerjakan selama sesi berlangsung
         </text>
     },
-    {
-      id: 5,
-      title: 'Apakah peserta yang mendaftar Trading Competition diwajibkan untuk mengikuti workshop?',
-      info: <text>
-        Peserta <i>Trading Competition</i> tidak diwajibkan untuk mengikuti workshop. Namun, akan sangat dianjurkan bagi peserta untuk 
-        mengikuti workshop karena workshop ini akan menambah <i>skill</i> penunjang peserta dalam mengikuti perlombaan.
-      </text>
-    },
+    // {
+    //   id: 5,
+    //   title: 'Apakah peserta yang mendaftar Trading Competition diwajibkan untuk mengikuti workshop?',
+    //   info: <text>
+    //     Peserta <i>Trading Competition</i> tidak diwajibkan untuk mengikuti workshop. Namun, akan sangat dianjurkan bagi peserta untuk 
+    //     mengikuti workshop karena workshop ini akan menambah <i>skill</i> penunjang peserta dalam mengikuti perlombaan.
+    //   </text>
+    // },
     {
       id: 6,
       title: 'Apakah peserta mendapatkan e-certificate?',

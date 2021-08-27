@@ -22,7 +22,11 @@ function SpeakerWork() {
           <div className="speaker-left">
             <img src="/dega.svg" alt="speaker" />
             <div className="text-speaker-right">
-              <h2 style={{lineHeight: "3rem", alignItems: "center", display: "inline-block"}}>Dega Rapidity, S.E., RSA®., CAP®., CSA®., CPF., AWP®.</h2>
+              <h2 style={{ lineHeight: "3rem", alignItems: "center", display: "inline-block" }}>Dega Rapidity, S.E., RSA®., CAP®., CSA®., CPF., AWP®.</h2>
+              <h3>
+                • Investment Analyst PT ASABRI (Persero)
+                <br /> • Fasilitator at Sertifikasiku
+              </h3>
             </div>
           </div>
         </div>
